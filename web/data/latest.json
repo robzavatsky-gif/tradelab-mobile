@@ -1,109 +1,61 @@
 {
   "schema": 1,
   "app_version": "0.4",
-  "mode": "synthetic_demo",
-  "updated_utc": "2026-11-14T14:16:06+00:00",
-  "source": "SYNTHETIC TEST DATA",
+  "mode": "prospective",
+  "updated_utc": "2026-11-14T14:41:52+00:00",
+  "source": "Alpaca historical IEX SPY (delayed)",
   "ticker": "SPY",
   "simulated_capital": 500,
-  "sessions": 4,
-  "last_session": "2026-11-19",
-  "new_sessions": 4,
+  "sessions": 0,
+  "last_session": null,
+  "new_sessions": 0,
   "frozen_rules_sha256": "7eb1d283c4550a92461bbe87b48657f69fba6add5823bb7ad67952674abca608",
   "strategies": [
     {
       "name": "ORB baseline",
-      "pnl": 0.4695,
-      "ending_balance": 500.4695,
-      "trades": 1,
-      "win_rate_pct": 100.0,
+      "pnl": 0,
+      "ending_balance": 500.0,
+      "trades": 0,
+      "win_rate_pct": 0,
       "max_eod_drawdown_pct": 0.0,
-      "latest_decision": "no_signal",
+      "latest_decision": "not_evaluated",
       "latest_trade": null,
       "curve": [
         {
           "date": "start",
           "equity": 500.0
-        },
-        {
-          "date": "2026-11-16",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-17",
-          "equity": 500.4695
-        },
-        {
-          "date": "2026-11-18",
-          "equity": 500.4695
-        },
-        {
-          "date": "2026-11-19",
-          "equity": 500.4695
         }
       ]
     },
     {
       "name": "VWAP baseline",
-      "pnl": 0.5978,
-      "ending_balance": 500.5978,
-      "trades": 1,
-      "win_rate_pct": 100.0,
+      "pnl": 0,
+      "ending_balance": 500.0,
+      "trades": 0,
+      "win_rate_pct": 0,
       "max_eod_drawdown_pct": 0.0,
-      "latest_decision": "no_signal",
+      "latest_decision": "not_evaluated",
       "latest_trade": null,
       "curve": [
         {
           "date": "start",
           "equity": 500.0
-        },
-        {
-          "date": "2026-11-16",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-17",
-          "equity": 500.5978
-        },
-        {
-          "date": "2026-11-18",
-          "equity": 500.5978
-        },
-        {
-          "date": "2026-11-19",
-          "equity": 500.5978
         }
       ]
     },
     {
       "name": "EMA baseline",
-      "pnl": 0.0295,
-      "ending_balance": 500.0295,
-      "trades": 1,
-      "win_rate_pct": 100.0,
+      "pnl": 0,
+      "ending_balance": 500.0,
+      "trades": 0,
+      "win_rate_pct": 0,
       "max_eod_drawdown_pct": 0.0,
-      "latest_decision": "no_signal",
+      "latest_decision": "not_evaluated",
       "latest_trade": null,
       "curve": [
         {
           "date": "start",
           "equity": 500.0
-        },
-        {
-          "date": "2026-11-16",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-17",
-          "equity": 500.0295
-        },
-        {
-          "date": "2026-11-18",
-          "equity": 500.0295
-        },
-        {
-          "date": "2026-11-19",
-          "equity": 500.0295
         }
       ]
     },
@@ -114,27 +66,11 @@
       "trades": 0,
       "win_rate_pct": 0,
       "max_eod_drawdown_pct": 0.0,
-      "latest_decision": "no_signal",
+      "latest_decision": "not_evaluated",
       "latest_trade": null,
       "curve": [
         {
           "date": "start",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-16",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-17",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-18",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-19",
           "equity": 500.0
         }
       ]
@@ -146,27 +82,11 @@
       "trades": 0,
       "win_rate_pct": 0,
       "max_eod_drawdown_pct": 0.0,
-      "latest_decision": "no_signal",
+      "latest_decision": "not_evaluated",
       "latest_trade": null,
       "curve": [
         {
           "date": "start",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-16",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-17",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-18",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-19",
           "equity": 500.0
         }
       ]
@@ -178,27 +98,11 @@
       "trades": 0,
       "win_rate_pct": 0,
       "max_eod_drawdown_pct": 0.0,
-      "latest_decision": "no_signal",
+      "latest_decision": "not_evaluated",
       "latest_trade": null,
       "curve": [
         {
           "date": "start",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-16",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-17",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-18",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-19",
           "equity": 500.0
         }
       ]
@@ -210,35 +114,17 @@
       "trades": 0,
       "win_rate_pct": 0,
       "max_eod_drawdown_pct": 0.0,
-      "latest_decision": "no_signal",
+      "latest_decision": "not_evaluated",
       "latest_trade": null,
       "curve": [
         {
           "date": "start",
           "equity": 500.0
-        },
-        {
-          "date": "2026-11-16",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-17",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-18",
-          "equity": 500.0
-        },
-        {
-          "date": "2026-11-19",
-          "equity": 500.0
         }
       ]
     }
   ],
-  "opening_regimes": {
-    "sideways": 4
-  },
+  "opening_regimes": {},
   "historical_reference": [
     {
       "name": "ORB baseline",
@@ -290,5 +176,5 @@
       "latest_decision": "Historical research"
     }
   ],
-  "latest_bar_count": 78
+  "latest_bar_count": 0
 }
