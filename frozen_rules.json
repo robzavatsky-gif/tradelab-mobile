@@ -1,0 +1,23 @@
+{
+  "version": "0.3",
+  "freeze_date": "2026-11-14",
+  "last_known_research_date": "2026-11-13",
+  "first_forward_date": "2026-11-16",
+  "ticker": "SPY",
+  "data_feed": "iex",
+  "strategy_names": [
+    "ORB baseline",
+    "VWAP baseline",
+    "EMA baseline",
+    "ORB filtered",
+    "EMA filtered",
+    "ORB filtered 90m exit",
+    "EMA filtered adaptive exit"
+  ],
+  "research_note": "All results before prospective start are already known exploratory history; do not select a historical winner then call this blind validation.",
+  "code_sha256": {
+    "tradelab_v03.py": "5b037c676595ccb3e5fca370794666f708cb0e7af9a9b71123713ed34e28023e",
+    "tradelab_v02.py": "569cdac986f6d76ef692ddda936c3b7156f7c7b8771c3c5d5ae1c74c1249d527",
+    "v01_engine.py": "ea748b4b47a9beae5ca7d39531be1c816ba2fdd10ae36a0a99bcdbc4d91403e5"
+  }
+}

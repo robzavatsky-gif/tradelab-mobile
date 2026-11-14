@@ -1,0 +1,1 @@
+period,strategy,date,regime,opening_hour_range_pct,opening_hour_direction,signal_time_et,entry_time_et,entry_fill,quantity,notional,stop,target,exit_time_et,exit_fill,exit_reason,pnl,signal_vwap_distance_pct,signal_volume_ratio,slippage_bps_per_side

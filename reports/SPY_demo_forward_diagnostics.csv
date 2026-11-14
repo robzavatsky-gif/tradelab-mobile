@@ -1,0 +1,29 @@
+period,date,strategy,regime,opening_hour_range_pct,opening_hour_direction,first_hour_median_volume,raw_signals,skipped_early,blocked_regime,blocked_below_vwap,blocked_volume,eligible_signals,decision,first_signal_time_et,trade_pnl
+prospective,2026-11-16,ORB baseline,sideways,0.2081922232860052,-0.7792989526263363,15417.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-17,ORB baseline,sideways,0.10359519898775957,-0.603376196793042,5534.0,1,0,0,0,0,1,trade,2026-11-17T11:10:00-05:00,0.4695084327215646
+prospective,2026-11-18,ORB baseline,sideways,0.1393843921799164,-0.4599306635311034,10360.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-19,ORB baseline,sideways,0.11971195869339721,-0.4052612828263255,14781.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-16,VWAP baseline,sideways,0.2081922232860052,-0.7792989526263363,15417.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-17,VWAP baseline,sideways,0.10359519898775957,-0.603376196793042,5534.0,1,0,0,0,0,1,trade,2026-11-17T10:30:00-05:00,0.5978216882461755
+prospective,2026-11-18,VWAP baseline,sideways,0.1393843921799164,-0.4599306635311034,10360.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-19,VWAP baseline,sideways,0.11971195869339721,-0.4052612828263255,14781.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-16,EMA baseline,sideways,0.2081922232860052,-0.7792989526263363,15417.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-17,EMA baseline,sideways,0.10359519898775957,-0.603376196793042,5534.0,3,0,0,0,0,3,trade,2026-11-17T13:10:00-05:00,0.029460977519894332
+prospective,2026-11-18,EMA baseline,sideways,0.1393843921799164,-0.4599306635311034,10360.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-19,EMA baseline,sideways,0.11971195869339721,-0.4052612828263255,14781.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-16,ORB filtered,sideways,0.2081922232860052,-0.7792989526263363,15417.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-17,ORB filtered,sideways,0.10359519898775957,-0.603376196793042,5534.0,1,0,1,0,0,0,all_signals_blocked,2026-11-17T11:10:00-05:00,0.0
+prospective,2026-11-18,ORB filtered,sideways,0.1393843921799164,-0.4599306635311034,10360.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-19,ORB filtered,sideways,0.11971195869339721,-0.4052612828263255,14781.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-16,EMA filtered,sideways,0.2081922232860052,-0.7792989526263363,15417.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-17,EMA filtered,sideways,0.10359519898775957,-0.603376196793042,5534.0,3,0,3,0,0,0,all_signals_blocked,2026-11-17T13:10:00-05:00,0.0
+prospective,2026-11-18,EMA filtered,sideways,0.1393843921799164,-0.4599306635311034,10360.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-19,EMA filtered,sideways,0.11971195869339721,-0.4052612828263255,14781.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-16,ORB filtered 90m exit,sideways,0.2081922232860052,-0.7792989526263363,15417.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-17,ORB filtered 90m exit,sideways,0.10359519898775957,-0.603376196793042,5534.0,1,0,1,0,0,0,all_signals_blocked,2026-11-17T11:10:00-05:00,0.0
+prospective,2026-11-18,ORB filtered 90m exit,sideways,0.1393843921799164,-0.4599306635311034,10360.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-19,ORB filtered 90m exit,sideways,0.11971195869339721,-0.4052612828263255,14781.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-16,EMA filtered adaptive exit,sideways,0.2081922232860052,-0.7792989526263363,15417.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-17,EMA filtered adaptive exit,sideways,0.10359519898775957,-0.603376196793042,5534.0,3,0,3,0,0,0,all_signals_blocked,2026-11-17T13:10:00-05:00,0.0
+prospective,2026-11-18,EMA filtered adaptive exit,sideways,0.1393843921799164,-0.4599306635311034,10360.0,0,0,0,0,0,0,no_signal,,0.0
+prospective,2026-11-19,EMA filtered adaptive exit,sideways,0.11971195869339721,-0.4052612828263255,14781.0,0,0,0,0,0,0,no_signal,,0.0

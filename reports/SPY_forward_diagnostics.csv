@@ -1,0 +1,1 @@
+period,date,strategy,regime,opening_hour_range_pct,opening_hour_direction,first_hour_median_volume,raw_signals,skipped_early,blocked_regime,blocked_below_vwap,blocked_volume,eligible_signals,decision,first_signal_time_et,trade_pnl

@@ -1,0 +1,8 @@
+period,strategy,sessions,trade_count,trade_days_pct,pnl,ending_balance,win_rate_pct,profit_factor,max_eod_drawdown_pct,avg_trade_pnl,blocked_regime,blocked_below_vwap,blocked_volume,no_signal_days
+prospective,ORB baseline,4,1,25.0,0.4695084327215646,500.46950843272157,100.0,,0.0,0.4695084327215646,0,0,0,3
+prospective,VWAP baseline,4,1,25.0,0.5978216882461755,500.5978216882462,100.0,,0.0,0.5978216882461755,0,0,0,3
+prospective,EMA baseline,4,1,25.0,0.029460977519894332,500.0294609775199,100.0,,0.0,0.029460977519894332,0,0,0,3
+prospective,ORB filtered,4,0,0.0,0,500.0,0,,0.0,0,1,0,0,3
+prospective,EMA filtered,4,0,0.0,0,500.0,0,,0.0,0,3,0,0,3
+prospective,ORB filtered 90m exit,4,0,0.0,0,500.0,0,,0.0,0,1,0,0,3
+prospective,EMA filtered adaptive exit,4,0,0.0,0,500.0,0,,0.0,0,3,0,0,3

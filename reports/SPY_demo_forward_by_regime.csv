@@ -1,0 +1,8 @@
+period,strategy,regime,sessions,trade_count,pnl,wins,win_rate_pct
+prospective,ORB baseline,sideways,4,1,0.4695084327215646,1,100.0
+prospective,VWAP baseline,sideways,4,1,0.5978216882461755,1,100.0
+prospective,EMA baseline,sideways,4,1,0.029460977519894332,1,100.0
+prospective,ORB filtered,sideways,4,0,0.0,0,0
+prospective,EMA filtered,sideways,4,0,0.0,0,0
+prospective,ORB filtered 90m exit,sideways,4,0,0.0,0,0
+prospective,EMA filtered adaptive exit,sideways,4,0,0.0,0,0

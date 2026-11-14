@@ -1,0 +1,20 @@
+TradeLab Mobile v0.4
+====================
+
+Recommended first step: read README.md.
+
+Quick local preview on Windows:
+  Run_Local_Preview.bat
+
+Automatic phone dashboard:
+  Publish this repository to GitHub, add your Alpaca PAPER credentials as
+  Actions secrets, set GitHub Pages source to GitHub Actions, and run the workflow.
+  Cloud hosting is NOT enabled until you complete these steps.
+
+Send to ChatGPT:
+  The dashboard shares a daily file via the phone share sheet (or downloads it).
+  You choose ChatGPT and attach it. No automated uploads and no OpenAI API costs.
+
+SAFETY:
+  NO REAL ORDERS, NO PAPER BROKER ORDERS, NO FUNDING, NO OPENAI API KEYS.
+  GitHub Pages is PUBLIC in the free deployment path: see privacy warning README.

@@ -1,0 +1,294 @@
+{
+  "schema": 1,
+  "app_version": "0.4",
+  "mode": "synthetic_demo",
+  "updated_utc": "2026-11-14T14:16:06+00:00",
+  "source": "SYNTHETIC TEST DATA",
+  "ticker": "SPY",
+  "simulated_capital": 500,
+  "sessions": 4,
+  "last_session": "2026-11-19",
+  "new_sessions": 4,
+  "frozen_rules_sha256": "7eb1d283c4550a92461bbe87b48657f69fba6add5823bb7ad67952674abca608",
+  "strategies": [
+    {
+      "name": "ORB baseline",
+      "pnl": 0.4695,
+      "ending_balance": 500.4695,
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "max_eod_drawdown_pct": 0.0,
+      "latest_decision": "no_signal",
+      "latest_trade": null,
+      "curve": [
+        {
+          "date": "start",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-16",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-17",
+          "equity": 500.4695
+        },
+        {
+          "date": "2026-11-18",
+          "equity": 500.4695
+        },
+        {
+          "date": "2026-11-19",
+          "equity": 500.4695
+        }
+      ]
+    },
+    {
+      "name": "VWAP baseline",
+      "pnl": 0.5978,
+      "ending_balance": 500.5978,
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "max_eod_drawdown_pct": 0.0,
+      "latest_decision": "no_signal",
+      "latest_trade": null,
+      "curve": [
+        {
+          "date": "start",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-16",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-17",
+          "equity": 500.5978
+        },
+        {
+          "date": "2026-11-18",
+          "equity": 500.5978
+        },
+        {
+          "date": "2026-11-19",
+          "equity": 500.5978
+        }
+      ]
+    },
+    {
+      "name": "EMA baseline",
+      "pnl": 0.0295,
+      "ending_balance": 500.0295,
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "max_eod_drawdown_pct": 0.0,
+      "latest_decision": "no_signal",
+      "latest_trade": null,
+      "curve": [
+        {
+          "date": "start",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-16",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-17",
+          "equity": 500.0295
+        },
+        {
+          "date": "2026-11-18",
+          "equity": 500.0295
+        },
+        {
+          "date": "2026-11-19",
+          "equity": 500.0295
+        }
+      ]
+    },
+    {
+      "name": "ORB filtered",
+      "pnl": 0,
+      "ending_balance": 500.0,
+      "trades": 0,
+      "win_rate_pct": 0,
+      "max_eod_drawdown_pct": 0.0,
+      "latest_decision": "no_signal",
+      "latest_trade": null,
+      "curve": [
+        {
+          "date": "start",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-16",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-17",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-18",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-19",
+          "equity": 500.0
+        }
+      ]
+    },
+    {
+      "name": "EMA filtered",
+      "pnl": 0,
+      "ending_balance": 500.0,
+      "trades": 0,
+      "win_rate_pct": 0,
+      "max_eod_drawdown_pct": 0.0,
+      "latest_decision": "no_signal",
+      "latest_trade": null,
+      "curve": [
+        {
+          "date": "start",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-16",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-17",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-18",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-19",
+          "equity": 500.0
+        }
+      ]
+    },
+    {
+      "name": "ORB filtered 90m exit",
+      "pnl": 0,
+      "ending_balance": 500.0,
+      "trades": 0,
+      "win_rate_pct": 0,
+      "max_eod_drawdown_pct": 0.0,
+      "latest_decision": "no_signal",
+      "latest_trade": null,
+      "curve": [
+        {
+          "date": "start",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-16",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-17",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-18",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-19",
+          "equity": 500.0
+        }
+      ]
+    },
+    {
+      "name": "EMA filtered adaptive exit",
+      "pnl": 0,
+      "ending_balance": 500.0,
+      "trades": 0,
+      "win_rate_pct": 0,
+      "max_eod_drawdown_pct": 0.0,
+      "latest_decision": "no_signal",
+      "latest_trade": null,
+      "curve": [
+        {
+          "date": "start",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-16",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-17",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-18",
+          "equity": 500.0
+        },
+        {
+          "date": "2026-11-19",
+          "equity": 500.0
+        }
+      ]
+    }
+  ],
+  "opening_regimes": {
+    "sideways": 4
+  },
+  "historical_reference": [
+    {
+      "name": "ORB baseline",
+      "pnl": -14.01,
+      "trades": 82,
+      "win_rate_pct": 45.1,
+      "latest_decision": "Historical research"
+    },
+    {
+      "name": "VWAP baseline",
+      "pnl": -25.71,
+      "trades": 86,
+      "win_rate_pct": 34.9,
+      "latest_decision": "Historical research"
+    },
+    {
+      "name": "EMA baseline",
+      "pnl": -21.88,
+      "trades": 80,
+      "win_rate_pct": 31.2,
+      "latest_decision": "Historical research"
+    },
+    {
+      "name": "ORB filtered",
+      "pnl": -1.77,
+      "trades": 8,
+      "win_rate_pct": 37.5,
+      "latest_decision": "Historical research"
+    },
+    {
+      "name": "EMA filtered",
+      "pnl": -1.02,
+      "trades": 10,
+      "win_rate_pct": 50.0,
+      "latest_decision": "Historical research"
+    },
+    {
+      "name": "ORB filtered 90m exit",
+      "pnl": -0.07,
+      "trades": 8,
+      "win_rate_pct": 50.0,
+      "latest_decision": "Historical research"
+    },
+    {
+      "name": "EMA filtered adaptive exit",
+      "pnl": -1.16,
+      "trades": 10,
+      "win_rate_pct": 50.0,
+      "latest_decision": "Historical research"
+    }
+  ],
+  "latest_bar_count": 78
+}
